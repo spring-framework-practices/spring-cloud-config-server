@@ -1,5 +1,11 @@
-###
+### Get default config.
 GET http://localhost:8888/spring-boot-spring-security-angular-jwt/default
 Accept: application/json
 
-###
+### Get dev config.
+GET http://localhost:8888/spring-boot-spring-security-angular-jwt/dev
+Accept: application/json
+
+### Get test config.
+GET http://localhost:8888/spring-boot-spring-security-angular-jwt/test
+Accept: application/json
